@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Net-PicApp
-version:            0.2
+version:            0.3
 abstract:           A library for interfacing with the PicApp service.
 author:
     - Byrne Reese <byrne@majordojo.com>
@@ -11,7 +11,10 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    XML::Simple:  0
+    Class::Accessor:  0
+    LWP::UserAgent:   0
+    URI::Escape:      0
+    XML::Simple:      0
 no_index:
     directory:
         - t
